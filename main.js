@@ -18,7 +18,7 @@ app.get('/', function (req, res) {
     db.collection('User').find().toArray(function(err, results) {
         console.log(results)
         res.send(results)
-        // send HTML file populated with quotes here
+        // send HTML file populated with quotes heres
       })
 })
 app.listen(3000, function () {
